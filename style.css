@@ -183,3 +183,99 @@ footer {
 
   margin-top: 50px;
 }
+
+.about {
+  padding: 100px 20px;
+
+  background: #111827;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 800px;
+
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 40px;
+
+  margin-bottom: 20px;
+
+  color: #22c55e;
+}
+
+.about p {
+  font-size: 20px;
+
+  line-height: 1.8;
+
+  color: #cbd5e1;
+}
+
+img {
+  width: 100%;
+
+  max-width: 700px;
+
+  border-radius: 20px;
+
+  margin-bottom: 30px;
+}
+
+.testimonials {
+  padding: 100px 20px;
+
+  text-align: center;
+
+  background: #0f172a;
+}
+
+.testimonials h2 {
+  font-size: 40px;
+
+  color: #22c55e;
+
+  margin-bottom: 50px;
+}
+
+.testimonial-cards {
+  display: flex;
+
+  gap: 20px;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #1e293b;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  max-width: 300px;
+
+  transition: 0.3s;
+}
+
+.testimonial:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial p {
+  color: #cbd5e1;
+
+  margin-bottom: 20px;
+
+  line-height: 1.6;
+}
+
+.testimonial h3 {
+  color: #22c55e;
+}
