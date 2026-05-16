@@ -120,6 +120,21 @@ button:hover {
     width: 100%;
   }
 
+  .navbar {
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+  .menu {
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+  .logo {
+  font-size: 24px;
+}
 }
 
 header {
